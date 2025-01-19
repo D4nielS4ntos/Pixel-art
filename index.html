@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charmander</title>
+    <style>
+        header {
+            text-align: center;
+        }
+
+        body {
+            background-color: #acacac;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 640px;
+            height: 640px;
+            background-color: #707070;
+            padding: 30px;
+            margin: auto;
+        }
+
+        .linhas {
+            background-color: #000000;
+            width: 320px;
+            height: 20px;
+
+        }
+
+        .quadrados {
+            width: 20px;
+            height: 20px;
+            float: left;
+            cursor: pointer;
+        }
+
+        footer {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #color {
+            border-radius: 5px;
+            color: #ffffff;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #button {
+            color: white;
+            background-color: #ff2828;
+            border-radius: 5px;
+            padding: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Pixel Art</h1>
+    </header>
+    <main>
+        <div id="conteudo">
+            <!--Primeira Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+            <!--Segunda Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+            <!--Terceira Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+            <!--Quarta Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+            <!--Quinta Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+            <!--Sexta Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+            <!--Setima Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+            <!--Oitava Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+            <!--Nona Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+            <!--Decima Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+            </div>
+            <!--Decima Primeira Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+            </div>
+            <!--Decima Segunda Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:red;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+            <!--Decima Terceira Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+            <!--Decima Quarta Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+            <!--Decima Quinta Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+            <!--Decima Sexta Linha -->
+            <div class="linhas">
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#000;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+                <div class="quadrados" style="background-color:#fff;"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <input id="color" type="color">
+        <input id="button" type="button" value="Apagar">
+    </footer>
+    <script>
+        const quadrados = document.querySelectorAll('.quadrados');
+        const input = document.querySelector('input#color');
+        const button = document.querySelector('input#button');
+
+        quadrados.forEach((quadrado) => {
+            quadrado.addEventListener('click', () => {
+                quadrado.style.backgroundColor = input.value;
+            });
+        });
+
+        button.addEventListener('click', () => {
+            quadrados.forEach((quadrado) => {
+                quadrado.style.backgroundColor = '#fff';
+            });
+        });
+    </script>
+</body>
+
+</html>
